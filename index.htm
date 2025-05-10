@@ -1,14 +1,283 @@
-﻿Текст перемещается. При наведении мыши останавливается.<br>
-Если текст оформлен как ссылка, то при нажатии на ссылку произойдёт переход по ссылке.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0019)http://testimiq.ru/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>IQ Тест - самый точный тест!</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK 
+href="asd.files/style.css" type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript src="asd.files/formvalidator.js" 
+type=text/javascript> </SCRIPT>
 
-<div align=center> 
-<Marquee scrollAmount=2 direction=up width=123 height=150 
-onmouseover="this.scrollAmount=0" 
-onmouseout="this.scrollAmount=2"><a href="https://yandex.ru/" >https://yandex.ru/</a></Marquee>
-</div> 
+<SCRIPT language=JavaScript>
 
-<div align=left> 
-<Marquee scrollAmount=2 direction=up width=123 height=150 
-onmouseover="this.scrollAmount=0" 
-onmouseout="this.scrollAmount=2">Текст</Marquee>
-</div> 
+<!-- Подсчет правильных ответов для бесплатного определения IQ -->
+<!-- Ответы a,b,c соответствуют [0,1,2] -->
+function результат(){var counter=0;
+if (tests.q1[1].checked) {counter++;}if (tests.q2[1].checked) {counter++;}if (tests.q3[2].checked) {counter++;}if (tests.q4[0].checked) {counter++;}if (tests.q5[2].checked) {counter++;}if (tests.q6[0].checked) {counter++;}if (tests.q7[0].checked) {counter++;}if (tests.q8[1].checked) {counter++;}if (tests.q9[2].checked) {counter++;}if (tests.q10[2].checked) {counter++;}if (tests.q11[2].checked) {counter++;}if (tests.q12[0].checked) {counter++;}if (tests.q13[2].checked) {counter++;}if (tests.q14[1].checked) {counter++;}if (tests.q15[1].checked) {counter++;}if (tests.q16[1].checked) {counter++;}if (tests.q17[1].checked) {counter++;}if (tests.q18[2].checked) {counter++;}if (tests.q19[0].checked) {counter++;}if (tests.q20[2].checked) {counter++;}if (tests.q21[0].checked) {counter++;}if (tests.q22[2].checked) {counter++;}if (tests.q23[1].checked) {counter++;}if (tests.q24[2].checked) {counter++;}if (tests.q25[0].checked) {counter++;}if (tests.q26[1].checked) {counter++;}if (tests.q27[0].checked) {counter++;}if (tests.q28[2].checked) {counter++;}if (tests.q29[2].checked) {counter++;}if (tests.q30[0].checked) {counter++;}
+<!-- Отображение IQ, пропорционального Эйнштейну -->
+alert("Ваш IQ = " + Math.floor(counter*163/30));
+}
+
+<!-- Подсчет правильных ответов для платного определения IQ -->
+function dataBase(tests) {
+if(checkform(tests)){var counter=32141;
+if (tests.q1[1].checked) {counter++;}if (tests.q2[1].checked) {counter++;}if (tests.q3[2].checked) {counter++;}if (tests.q4[0].checked) {counter++;}if (tests.q5[2].checked) {counter++;}if (tests.q6[0].checked) {counter++;}if (tests.q7[0].checked) {counter++;}if (tests.q8[1].checked) {counter++;}if (tests.q9[2].checked) {counter++;}if (tests.q10[2].checked) {counter++;}if (tests.q11[2].checked) {counter++;}if (tests.q12[0].checked) {counter++;}if (tests.q13[2].checked) {counter++;}if (tests.q14[1].checked) {counter++;}if (tests.q15[1].checked) {counter++;}if (tests.q16[1].checked) {counter++;}if (tests.q17[1].checked) {counter++;}if 	(tests.q18[2].checked) {counter++;}if (tests.q19[0].checked) {counter++;}if (tests.q20[2].checked) {counter++;}if (tests.q21[0].checked) {counter++;}if (tests.q22[2].checked) {counter++;}if (tests.q23[1].checked) {counter++;}if (tests.q24[2].checked) {counter++;}if (tests.q25[0].checked) {counter++;}if (tests.q26[1].checked) {counter++;}if (tests.q27[0].checked) {counter++;}if (tests.q28[2].checked) {counter++;}if (tests.q29[2].checked) {counter++;}if (tests.q30[0].checked) {counter++;}
+document.location.href="./result.php?id=" + counter;}
+}
+
+<!-- Попытка А.М. добавить правильные ответы -->
+function прав_отв(){string="CHECKED";alert(string)}
+ Display = "Нажмите клавишу <Escape>."; 
+if (!key.isDown(key.escape))
+{ Display = "Нажмите клавишу <Escape>."; }
+function прав_отв() {}
+
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>  
+<DIV id=wrap>
+<DIV id=cont>
+
+<H1>Самый точный IQ-тест!</H1>
+
+<DIV id=lead>Перед вами нашумевший IQ-тест <B>Американских спецслужб</B>. Именно 
+им тестировались кандидаты при поступлении на службу в подразделения ФБР США. 
+Прошли годы и тестовые задания были рассекречены. Благодаря этому, сегодня 
+каждый может пройти этот провокационный тест!<BR><BR>Особенность теста 
+заключается в очень точных результатах. Именно поэтому, пройдя тест, вы сможете 
+получить объективную оценку собственного интеллектуального развития. Кроме того, 
+вы сможете сравнить собственный результат с показателями многих известных и 
+знаменитых людей!<BR>
+<P><B>P. S. </B>В тесте вы можете обнаружить <B>незнакомые слова</B>, такие, как 
+"куздра". Не пугайтесь. Эти слова предназначены для того, чтобы оценить вашу 
+способность к логическому мышлению, отделив ее от других ваших знаний об 
+окружающем мире.</P>
+<p><b>P. P. S. Примечание скептика.</b> Тест оценивает только ваше 
+логическое мышление, а не интеллектуальное развитие! </p></div><BR>
+<DIV class=quest>
+<FORM name=tests action=result.php method=post>
+<H4>1. Шмурдик боится как мышей, так и тараканов. <BR></H4><INPUT type=radio 
+value=11 name=q1> a. шмурдик не боится тараканов; <BR><INPUT type=radio value=12 
+name=q1> b. шмурдик боится мышей; <BR><INPUT type=radio value=13 name=q1> c. 
+шмурдик боится мышей больше, чем тараканов, но и тараканов боится тоже. <BR><hr>
+<H4>2. Известно, что грымзик обязательно или полосат, или рогат, или то и другое 
+вместе. <BR></H4><INPUT type=radio value=21 name=q2> a. грымзик не может быть 
+безрогим; <BR><INPUT type=radio value=22 name=q2> b. грымзик не может быть 
+однотонным и безрогим одновременно; <BR><INPUT type=radio value=23 name=q2> c. 
+грымзик не может быть полосатым и безрогим одновременно. <BR><hr>
+<H4>3. Если запырку отравить, то она сразу начнет пускать пузыри. 
+<BR></H4><INPUT type=radio value=31 name=q3> a. если запырка пускает пузыри, то 
+она была отравлена; <BR><INPUT type=radio value=32 name=q3> b. если запырку не 
+отравить, то она не будет пускать пузыри; <BR><INPUT type=radio value=33 
+name=q3> c. если запырка не пускает пузыри, то она не отравлена. <BR><hr>
+<H4>4. Все охлотушки умеют играть в шашки <BR></H4><INPUT type=radio value=41 
+name=q4> a. не бывает охлотушек, которые не умеют играть в шашки; <BR><INPUT 
+type=radio value=42 name=q4> b. все, кто умеет играть в шашки, являются 
+охлотушками; <BR><INPUT type=radio value=43 name=q4> c. не бывает охлотушек, 
+которые умеют играть в шашки. <BR><hr>
+<H4>5. Дубараторы бывают либо хорошими, либо плохими. Неправда, что этот 
+дубаратор не плохой. <BR></H4><INPUT type=radio value=51 name=q5> a. этот 
+дубаратор хороший; <BR><INPUT type=radio value=52 name=q5> b. этот дубаратор 
+средненький; <BR><INPUT type=radio value=53 name=q5> c. этот дубаратор плохой. 
+<BR><hr>
+<H4>6. В природе обнаружено более десятка тиалей. Все обнаруженные тиали сплошь 
+красного цвета. <BR></H4><INPUT type=radio value=61 name=q6> a. по крайней мере 
+некоторые из тиалей красного цвета; <BR><INPUT type=radio value=62 name=q6> b. 
+по крайней мере некоторые из тиалей зеленые; <BR><INPUT type=radio value=63 
+name=q6> c. некоторые тиали (из тех, что уже обнаружены) могут оказаться не 
+красными. <BR><hr>
+<H4>7. Существуют шакалы с больной мухропендией. <BR></H4><INPUT type=radio 
+value=71 name=q7> a. не всякий шакал может похвастаться здоровой мухропендией; 
+<BR><INPUT type=radio value=72 name=q7> b. не всякий шакал может похвастаться 
+больной мухропендией; <BR><INPUT type=radio value=73 name=q7> c. существуют 
+шакалы со здоровой мухропендией. <BR><hr>
+<H4>8. Неправда, что наша тумельница большая и круглая. <BR></H4><INPUT 
+type=radio value=81 name=q8> a. наша тумельница маленькая и некруглая; 
+<BR><INPUT type=radio value=82 name=q8> b. наша тумельница маленькая, или 
+некруглая, или то и другое вместе; <BR><INPUT type=radio value=83 name=q8> c. 
+наша тумельница маленькая, или некруглая, но не то и другое вместе. <BR><hr>
+<H4>9. Джон всегда либо урдит, либо мурлит. <BR></H4><INPUT type=radio value=91 
+name=q9> a. Джон иногда урдит; <BR><INPUT type=radio value=92 name=q9> b. Джон 
+иногда урдит, а иногда мурлит; <BR><INPUT type=radio value=93 name=q9> c. Джон 
+никогда не занимается одновременно и урдением, и мурлением. <BR><hr>
+<H4>10. Журналисты наврали, что бздыш болотный безграмотен и нахален. 
+<BR></H4><INPUT type=radio value=101 name=q10> a. на самом деле бздыш болотный 
+образован и тактичен; <BR><INPUT type=radio value=102 name=q10> b. на самом деле 
+бздыш болотный безграмотен, но не нахален; <BR><INPUT type=radio value=103 
+name=q10> c. те журналисты солгали. <BR><hr>
+<H4>11. Если тряхнуть бурдылькой, то начнется стрельба. Бурдылькой тряхнули. 
+<BR></H4><INPUT type=radio value=111 name=q11> a. стрельба уже началась; 
+<BR><INPUT type=radio value=112 name=q11> b. стрельба начнется когда-нибудь; 
+<BR><INPUT type=radio value=113 name=q11> c. стрельба начнется когда-нибудь или 
+уже началась. <BR><hr>
+<H4>12. Если тряхнуть перпелькой, то немедленно начнется стрельба. За последний 
+час стрельбы не было. <BR></H4><INPUT type=radio value=121 name=q12> a. в 
+течении последнего часа перпелькой не трясли; <BR><INPUT type=radio value=122 
+name=q12> b. в течении последнего часа перпелькой трясли; <BR><INPUT type=radio 
+value=123 name=q12> c. а нечего было трясти чем попало. <BR><hr>
+<H4>13. Огромный бутряк напугал деревенского старосту. <BR></H4><INPUT 
+type=radio value=131 name=q13> a. старосте приснился ночной кошмар; <BR><INPUT 
+type=radio value=132 name=q13> b. староста попробовал некачественной выпивки; 
+<BR><INPUT type=radio value=133 name=q13> c. староста был напуган. <BR><hr>
+<H4>14. Если почесать угубку за ухом, он начнет довольно шипеть. Если угубок 
+довольно зашипит, то молоко поблизости скиснет. <BR></H4><INPUT type=radio 
+value=141 name=q14> a. если не чесать угубка за ухом, то молоко поблизости не 
+скиснет; <BR><INPUT type=radio value=142 name=q14> b. если почесать угубка за 
+ухом, молоко поблизости скиснет; <BR><INPUT type=radio value=143 name=q14> c. 
+молоко вдалеке никогда не скисает от чесания угубков. <BR><hr>
+<H4>15. Всех, кто громко обуривает, обязательно съедают. Все ухмырки постоянно 
+громко обуривают. </H4><INPUT type=radio value=151 name=q15> a. все, кто 
+громко обуривает,- ухмырки; <BR><INPUT type=radio value=152 name=q15> b. всех 
+ухмырков обязательно съедают; <BR><INPUT type=radio value=153 name=q15> c. 
+некоторых ухмырков не съедают. <BR><hr>
+<H4>16. В реках близ Тимуграда обитает и вобла, и щука. <BR></H4><INPUT 
+type=radio value=161 name=q16> a. в реках близ Тимуграда не бывает воблы; 
+<BR><INPUT type=radio value=162 name=q16> b. в реках близ Тимуграда обитает 
+щука; <BR><INPUT type=radio value=163 name=q16> c. в реках близ Тимуграда 
+обитает только вобла и щука. <BR><hr>
+<H4>17. Все пуфелки радуют умом или красотой, а иногда даже и тем, и другим. 
+<BR></H4><INPUT type=radio value=171 name=q17> a. пуфелка не может быть глупой; 
+<BR><INPUT type=radio value=172 name=q17> b. не бывает глупых некрасивых 
+пуфелок; <BR><INPUT type=radio value=173 name=q17> c. не бывает умных красивых 
+пуфелок. <BR><hr>
+<H4>18. Когда вы спите, вы всегда мухряете. <BR></H4><INPUT type=radio value=181 
+name=q18> a. если вы мухряете, значит, вы спите; <BR><INPUT type=radio value=182 
+name=q18> b. если вы не спите, вы не мухряете. <BR><INPUT type=radio value=183 
+name=q18> c. если вы не мухряете, значит, вы не спите. <BR><hr>
+<H4>19. Все болельщики любят ыгу. <BR></H4><INPUT type=radio value=191 name=q19> 
+a. не бывает болельщиков, которые не любят ыгу; <BR><INPUT type=radio value=192 
+name=q19> b. все, кто любит ыгу, болеет за кого-нибудь; <BR><INPUT type=radio 
+value=193 name=q19> c. не бывает болельщиков, которые любят ыгу. <BR><hr>
+<H4>20. Есть только два вида здунцов: красные и синие. Что касается этого 
+конкретного здунца, то он оказался вовсе не синим. <BR></H4><INPUT type=radio 
+value=201 name=q20> a. этот здунец синий; <BR><INPUT type=radio value=202 
+name=q20> b. этот здуней синекрасный; <BR><INPUT type=radio value=203 name=q20> 
+c. этот здунец красный. <BR><hr>
+<H4>21. Найдено множество останков быдлозавров. Но все они очень плохо 
+сохранились. <BR></H4><INPUT type=radio value=211 name=q21> a. некоторые останки 
+быдлозавров очень плохо сохранились; <BR><INPUT type=radio value=212 name=q21> 
+b. по крайней мере некоторые останки быдлозавров в отличном состоянии; 
+<BR><INPUT type=radio value=213 name=q21> c. некоторые найденные останки 
+быдлозавров сохранились хорошо. <BR><hr>
+<H4>22. Некоторые лапухондрии не стабильны. <BR></H4><INPUT type=radio value=221 
+name=q22> a. не всякая лапухондрия не стабильна; <BR><INPUT type=radio value=222 
+name=q22> b. существуют стабильные лапухондрии; <BR><INPUT type=radio value=223 
+name=q22> c. не всякая лапухондрия стабильна. <BR><hr>
+<H4>23. Говорили, что дукни и острые, и твердые. Оказывается, это вовсе не так. 
+<BR></H4><INPUT type=radio value=231 name=q23> a. на самом деле дукни тупые и 
+мягкие; <BR><INPUT type=radio value=232 name=q23> b. на самом деле дукни тупые 
+или мягкие или то и другое сразу; <BR><INPUT type=radio value=233 name=q23> c. 
+на самом деле дукни тупые или мягкие, но не то и другое сразу. <BR><hr>
+<H4>24. Кафля всегда либо бегает, либо дышит. <BR></H4><INPUT type=radio 
+value=241 name=q24> a. Кафля дышит на бегу; <BR><INPUT type=radio value=242 
+name=q24> b. Кафля не дышит стоя; <BR><INPUT type=radio value=243 name=q24> c. 
+Кафля не дышит на бегу. <BR><hr>
+<H4>25. Информация о том, что завтрашнее совещание будет посвящено альным 
+утятам, оказалась ложной. <BR></H4><INPUT type=radio value=251 name=q25> a. 
+информация оказалась ложной; <BR><INPUT type=radio value=252 name=q25> b. 
+совещание будет посвящено не утятам; <BR><INPUT type=radio value=253 name=q25> 
+с. совещание будет посвящено утятам, но вовсе не альным. <BR><hr>
+<H4>26. Если облить уузку, она испортится сразу же. Эта уузка не испорчена. 
+Сейчас я оболью ее водой. <BR></H4><INPUT type=radio value=261 name=q26> a. не 
+надо обижать уузку; <BR><INPUT type=radio value=262 name=q26> b. уузка 
+испортится; <BR><INPUT type=radio value=263 name=q26> c. уузка не испортится. 
+<BR><hr>
+<H4>27. Если облить уузку, она испортится сразу же. Эта уузка не была испорчена. 
+<BR></H4><INPUT type=radio value=271 name=q27> a. уузку не обливали; <BR><INPUT 
+type=radio value=272 name=q27> b. уузку обливали; <BR><INPUT type=radio 
+value=273 name=q27> c. да отстаньте вы от уузки. <BR><hr>
+<H4>28. Вася бросил проходить этот тест, ответив только на 28 вопросов. 
+<BR></H4><INPUT type=radio value=281 name=q28> a. Вася устал, проходя тест; 
+<BR><INPUT type=radio value=282 name=q28> b. Вася заколебался, проходя тест; 
+<BR><INPUT type=radio value=283 name=q28> c. Вася не закончил тест. <BR><hr>
+<H4>29. Если покормить бушку, она успокоится. Спокойную бушку можно доить. 
+<BR></H4><INPUT type=radio value=291 name=q29> a. если бушку не кормить, ее 
+нельзя будет доить; <BR><INPUT type=radio value=292 name=q29> b. бушку можно 
+доить, но не кормить, она сама чего-нибудь найдет и съест; <BR><INPUT type=radio 
+value=293 name=q29> c. после кормления бушку можно доить. <BR><hr>
+<H4>30. Если обрадовать бушку, она даст молока. Бушка обрадуется, если дернуть 
+ее за хвост. <BR></H4><INPUT type=radio value=301 name=q30> a. если дернуть 
+бушку за хвост, она даст молока; <BR><INPUT type=radio value=302 name=q30> b. 
+никто не обрадуется, если дернуть его за хвост; <BR><INPUT type=radio value=303 
+name=q30> c. если не дернуть бушку за хвост, она не даст молока. <BR><hr>
+<CENTER>
+
+<BR>
+<!-- IQ, пропорциональный Эйнштейну -->
+<DIV align=center><B>Нажмите на кнопку и получите результат теста</B><BR> <BR><INPUT title="пропорционально Эйнштейну" onclick=результат() type=button value=" Примерный IQ " name=check1> 
+</DIV>
+
+<!--платная услуга: подробный анализ IQ-->
+<DIV align=center> <BR><INPUT title="Это платная услуга с выходом в Internet" onclick=dataBase(this.form) type=button value=" Подробный IQ (платно) " name=check2> 
+</DIV>
+
+<!-- Попытка А.М. добавить правильные ответы -->
+<DIV align=center> <BR><INPUT title="Правильные ответы"  onclick=прав_отв() type=button value=" Правильные ответы (не готово) " name=check3> 
+</DIV>
+
+<!--
+<BUTTON onclick="прав_отв()">
+<image src="labelt.gif" id="myimage">
+Прав. ответы
+</BUTTON>
+-->
+
+</CENTER></FORM></DIV></DIV>
+
+<DIV id=sidebar>
+<DIV id=photo><IMG alt="" src="asd.files/3_b.jpg">
+<DIV class=comment>Его коэффициент интеллекта равен 163. А твой?</DIV></DIV>
+<DIV id=about>
+
+
+  Над данным тестом работала команда докторов наук в 
+  области психологии. <BR> <BR>
+  Пройдя тест, Вы получите свой уровень IQ. <BR> <BR>
+  Вы также получите подробное заключение о логических способностях Вашего 
+  мозга (платно).<BR> <BR>
+<H3>Что такое IQ</H3><BR>
+Коэффициент интеллекта IQ (intelligence quotient) — уровень интеллекта относительно уровня интеллекта 
+среднестатистического человека такого же возраста. Определяется с помощью 
+специальных тестов, подобных этому. 
+<DIV id=list>
+<H3>IQ знаменитостей</H3>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/gates.jpg"></DIV>
+<DIV class=comm> <SPAN>160</SPAN> — Билл Гейтс (бизнесмен, программист)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/galiley.jpg"></DIV>
+<DIV class=comm> <SPAN>185</SPAN> — Галилео Галилей (ученый)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/bush.jpg"></DIV>
+<DIV class=comm> <SPAN>120</SPAN> — Джордж Буш младший (президент)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/obama.png"></DIV>
+<DIV class=comm> <SPAN>120</SPAN> — Барак Обама (президент)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/sagalova.jpg"></DIV>
+<DIV class=comm> <SPAN>97</SPAN> — Дарья Сагалова (актриса)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/putin.jpg"></DIV>
+<DIV class=comm> <SPAN>134</SPAN> — Владимир Путин (президент)</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=imgwrap>
+<DIV class=img><IMG src="asd.files/pugach.jpg"></DIV>
+<DIV class=comm> <SPAN>106</SPAN> — Алла Пугачева (певица)</DIV>
+<DIV class=clear></DIV></DIV></DIV></DIV></DIV></DIV><!--LiveInternet counter-->
+<SCRIPT type=text/javascript><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t45.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='1' height='1'><\/a>")
+//--> 
+</SCRIPT>
+<!--/LiveInternet--></BODY></HTML>
