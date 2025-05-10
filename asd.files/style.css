@@ -1,0 +1,93 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 14px/20px 'Trebuchet MS' Verdana Arial sans-serif; PADDING-TOP: 0px
+}
+H1 {
+	FONT: 30px/20px 'Trebuchet MS' Verdana Arial sans-serif; COLOR: #4fa743
+}
+H2 {
+	FONT: 20px/20px 'Trebuchet MS' Verdana Arial sans-serif; COLOR: #4fa743
+}
+H3 {
+	FONT: 18px/20px 'Trebuchet MS' Verdana Arial sans-serif; COLOR: #2f7726
+}
+H4 {
+	MARGIN: 0px 0px 10px; FONT: bold 16px/20px 'Trebuchet MS' Verdana Arial sans-serif
+}
+.quest DIV {
+	MARGIN: 10px 0px
+}
+LABEL {
+	MARGIN-LEFT: 10px
+}
+#wrap {
+	LEFT: 50%; MARGIN-LEFT: -350px; WIDTH: 800px; POSITION: absolute
+}
+#cont {
+	MARGIN-TOP: 20px; FLOAT: left; WIDTH: 500px
+}
+#sidebar {
+	FLOAT: right; WIDTH: 250px
+}
+.quest {
+	BORDER-RIGHT: #e0d2a9 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #e0d2a9 1px solid; PADDING-LEFT: 20px; BACKGROUND: #fef5bf; PADDING-BOTTOM: 10px; BORDER-LEFT: #e0d2a9 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #e0d2a9 1px solid
+}
+#photo {
+	BORDER-RIGHT: #ecebb4 1px solid; PADDING-RIGHT: 24px; PADDING-LEFT: 24px; BACKGROUND: #fffec1; PADDING-BOTTOM: 24px; BORDER-LEFT: #ecebb4 1px solid; PADDING-TOP: 24px; BORDER-BOTTOM: #ecebb4 1px solid
+}
+.comment {
+	MARGIN-TOP: 10px; FONT: italic 12px/20px 'Trebuchet MS' Verdana Arial sans-serif
+}
+#about {
+	BORDER-RIGHT: #ecebb4 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ecebb4 1px solid; MARGIN-TOP: 15px; PADDING-LEFT: 10px; BACKGROUND: #fffec1; PADDING-BOTTOM: 5px; BORDER-LEFT: #ecebb4 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ecebb4 1px solid
+}
+#about H3 {
+	MARGIN: 0px
+}
+#about UL {
+	MARGIN-LEFT: 20px; LIST-STYLE-TYPE: circle
+}
+#list {
+	MARGIN-TOP: 30px
+}
+#list H3 {
+	MARGIN-BOTTOM: 10px; MARGIN-LEFT: 10px
+}
+#list SPAN {
+	FONT-WEIGHT: bold; COLOR: #2f7726
+}
+.clear {
+	CLEAR: both
+}
+.imgwrap {
+	MARGIN-BOTTOM: 10px
+}
+.img {
+	FLOAT: left; WIDTH: 70px; HEIGHT: 70px
+}
+.comm {
+	MARGIN-LEFT: 80px; PADDING-TOP: 10px
+}
+#result {
+	BORDER-RIGHT: #b9db98 1px solid; PADDING-RIGHT: 20px; BORDER-TOP: #b9db98 1px solid; PADDING-LEFT: 20px; BACKGROUND: #e6fdcf; PADDING-BOTTOM: 10px; BORDER-LEFT: #b9db98 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #b9db98 1px solid
+}
+#result H5 {
+	MARGIN: 15px 0px 5px; FONT: bold 16px/20px 'Trebuchet MS' Verdana Arial sans-serif; COLOR: #4fa743
+}
+H5 SPAN {
+	COLOR: #f00
+}
+#choose {
+	MARGIN-LEFT: 5px
+}
+#uznat {
+	MARGIN-LEFT: 5px
+}
+#result SELECT {
+	WIDTH: 300px
+}
+#advantages LI {
+	MARGIN-BOTTOM: 1px; FONT: 13px/20px 'Trebuchet MS' Verdana Arial sans-serif; MARGIN-LEFT: -40px; LIST-STYLE-TYPE: none
+}
+#prim LI {
+	FONT: 13px/20px 'Trebuchet MS' Verdana Arial sans-serif
+}
